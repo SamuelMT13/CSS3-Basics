@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+
+}
+
+
+/*
+====================================================================================================================================================================
+                                                    Start Premium Plus Page
+====================================================================================================================================================================
+*/
+#logo {
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+
+}
+
+.barra {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #172035;
+    padding-left: 50px;
+    height: 80px;
+}
+
+.extensiones-barra {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.caja-barra {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 1.5em;
+
+}
+
+.caja-barra:hover {
+    background: #09568d;
+}
+
+
+/*
+====================================================================================================================================================================
+                                                    End Premium Plus Page
+====================================================================================================================================================================
+*/
+
+#courses h1{
+    font-size: 4em;
+}
+
+.article {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+
+.monthly ul{
+    padding: 20px;
+}
+
+.monthly button{
+    font-size: 2rem;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background-color: #172035;
+}
+
+.monthly button:hover {
+    background: #09568d;
+}
+
+.annual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+.annual ul {
+    padding: 20px;
+}
+
+.annual button {
+    font-size: 2rem;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background-color: #172035;
+}
+
+.annual button:hover {
+    background: #09568d;
+}
+
+
+.lifetime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+
+.lifetime ul {
+    padding: 20px;
+}
+
+.lifetime button {
+    font-size: 2rem;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border: 0;
+    background-color: #172035;
+}
+
+.lifetime button:hover {
+    background: #09568d;
+}
+/*
+====================================================================================================================================================================
+                                                    Start Footer
+====================================================================================================================================================================
+*/
+
+/* Pie de pagina */
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    background: #172035;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-right: 15%;
+
+}

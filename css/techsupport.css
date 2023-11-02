@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    
+
+}
+/*
+====================================================================================================================================================================
+                                                    Start Tech Support Page
+====================================================================================================================================================================
+*/
+
+#logo {
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+
+}
+
+.barra {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #172035;
+    padding-left: 50px;
+    height: 80px;
+}
+
+.extensiones-barra {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.caja-barra {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 1.5em;
+
+}
+
+.caja-barra:hover {
+    background: #09568d;
+}
+
+/*
+====================================================================================================================================================================
+                                                    End Tech Support Page
+====================================================================================================================================================================
+*/
+
+.title{
+    width: 100%;
+    font-size: 4em;
+}
+
+.article {
+    display: grid;
+    justify-content: center;
+
+}
+
+
+/* Primer articulo */
+.computersupport{
+    display: flex;
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+.text {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.text h1{
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+}
+ 
+.text p{
+    padding: 30px 0;
+
+}
+
+.text button{
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    background-color: #172035;
+}
+
+.text button:hover{
+    background: #09568d;
+}
+
+/* Segundo articulo */
+
+.computersupport2 {
+    display: flex;
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+.text2 {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.text2 h1 {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.text2 p {
+    padding: 30px 0;
+
+}
+
+.text2 button {
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    background-color: #172035;
+}
+
+.text2 button:hover {
+    background: #09568d;
+}
+
+/* Tercer articulo */
+
+.computersupport3 {
+    display: flex;
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+.text3 {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.text3 h1 {
+    padding: 15px 0;
+    margin: 0;
+}
+
+.text3 p {
+    padding: 30px 0;
+
+}
+
+.text3 button {
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    background-color: #172035;
+}
+
+.text3 button:hover {
+    background: #09568d;
+}
+
+/* Pie de pagina */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 100px;
+    background: #172035;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-right: 15%;
+
+}
