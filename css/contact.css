@@ -87,13 +87,11 @@ form input{
 
 footer {
     display: flex;
-    position: fixed;
-    bottom: 0;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 80px;
-    margin-top: auto;
+    margin-top: calc(100vh - 500px - 80px - 76px);
     background: #172035;
 }
 
